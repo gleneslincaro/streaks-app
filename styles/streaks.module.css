@@ -1,0 +1,38 @@
+.streakContainer {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .streakDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .streak-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .completed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .incomplete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .saved {
+    background-color: #ffeb3b;
+    color: black;
+  }
+  
+  .at-risk {
+    background-color: #ff9800;
+    color: white;
+  }
+  
