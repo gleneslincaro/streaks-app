@@ -1,6 +1,6 @@
 import moment from "moment";
 
-enum StreakState {
+export enum StreakState {
   COMPLETED = "COMPLETED",
   AT_RISK = "AT_RISK",
   SAVED = "SAVED",
